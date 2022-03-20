@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:travel/pages/details_page.dart';
+import 'package:travel/pages/login.dart';
 import 'package:travel/pages/standard_page.dart';
 import 'package:travel/pages/welcom_page.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
 
           primarySwatch: Colors.blue,
         ),
-        home: DetailsPage()
+        home: Login()
     );
   }
 }
